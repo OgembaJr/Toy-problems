@@ -1,12 +1,15 @@
- ### 1: STUDENT GRADE GENERATOR 
+ # TOY PROBLEMS
+There are 3 problems to be solved namely: -Student Grade
+                                          -Speed Detector
+                                          -Net Salary Calculator
+ 
+ ## 1: STUDENT GRADE GENERATOR 
 
-Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+You are required to write function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
 
         A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
- 
-
- ### 2: SPEED DETECTOR
+ ## 2: SPEED DETECTOR
 
 Write a program that takes the speed of a car as input e.g 80.
  If the speed is less than 70, it should print “Ok”. 
@@ -16,7 +19,7 @@ Write a program that takes the speed of a car as input e.g 80.
 
  
 
- ### 3: NET SALARY CALCULATOR
+ ## 3: NET SALARY CALCULATOR
 
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 

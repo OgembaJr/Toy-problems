@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NET SALARY CALCULATOR</title>
+</head>
+<body>
+    <script src="netsalary.js"></script>
+    <form>
+        <label for="inputBase">BASE SALARY:</label>
+        <input type="number" id="base" name="baseSalary" title="Input Base Pay" required><br><br>
+        <label for="benefit">ADD BENEFIT:</label>
+        <input type="number" id="benefit" name="benefit" title="Enter your benefit" required><br><br>
+        <!-- <button>Submit</button> -->
+      </form>
+      <button onclick="netSalary()">SUBMIT</button>
+
+      <p>GROSS :</p>
+      <p>PAYEE :</p>
+      <p>NHIF:</p>
+      <p>NSSF:</p>
+      <p style="color:rebeccapurple; font-size: x-large;">NET PAY :</p>
+</body>
+</html>

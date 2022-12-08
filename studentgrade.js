@@ -1,31 +1,30 @@
 
 //Creating a function with the function name inputStudentsMarks
 function inputStudentsMarks(marks){
-    let studentMarks = ''
-    //using the switch statement to create the grading system
+    //The program should run on the web console
+    marks = prompt("Enter grade")
+    //using the switch statement to create the logic for our grading system
     switch(true) {
-        case (marks > 79):
-            studentMarks = 'A';
+        case (marks > 79 && marks <=100):
+            console.log("Grade A");
             break;
         case (marks <= 79 && marks >= 60):
-            studentMarks = 'B';
+            console.log("Grade B");
              break;
         case (marks<=59 && marks>=49):
-            studentMarks = 'C';
+            console.log("Grade C");
              break;
            case (marks <= 49 && marks >= 40):
-            studentMarks = 'D';
+            console.log("Grade D");
              break;
-        case (marks < 40):
-            studentMarks = 'E';
+        case (marks < 40 && marks >= 0):
+            console.log("Grade E");
             break;
-    //Passing an argument so that the code makes sense and is within scope
-        case (marks > 100 && marks < 0):
-            studentMarks = 'INVALID SCORE';
-            break; 
-    
+            //Student can't get marks more than 100 and less than 0 hence the INVALID SCORE
         default:
-          return 'INVALID SCORE';
+            console.log('INVALID SCORE');
       }
 
 }
+//Invoking the function in order for the progam to run
+inputStudentsMarks();
